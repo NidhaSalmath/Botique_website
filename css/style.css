@@ -1,0 +1,1361 @@
+/********************* 
+
+Home page 
+
+*******************************/
+
+/*************** header ******************/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* height: 800vh; */
+    padding: 20px;
+    background-color: hsl(96, 36%, 95%);
+      
+}
+
+.section_container1 {
+    width: 100%;
+    height: 85px;
+}
+/* botique name */
+.name_div {
+    padding: 20px;
+    width: 25%;
+    position: relative;
+    left: 50px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.text {
+    color: #f03b09;
+}
+/*************************** header end ***************************/
+
+/* section 2nd */
+.main_section {
+    padding: 40px;
+    width: 95%;
+    height: 87vh;
+    background-color: rgb(204, 207, 209);
+    display: flex;
+    word-spacing: 8px;
+    position: relative;
+    left: 35px;
+    border-radius: 100px 150px 160px 350px;
+    border: 3px  gray;
+    border-style: inset;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+}
+.main_section:hover {
+    transform: translateX(20px);
+    transition: 1s;
+}
+
+/*     nav bar   */
+a {
+    text-decoration: none;
+}
+
+.nav_div {
+    padding: 30px;
+    /* border: 2px solid; */
+    width: 90%;
+    height: 100px;
+    word-spacing: 1.5cm;
+
+}
+
+.nav-li {
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: 700;
+    /* color: rgb(8, 7, 7); */
+    font-size: x-large;
+}
+
+.nav-li:hover {
+    font-size: xx-large;
+    color: red;
+    text-decoration: underline;
+}
+
+/* heading */
+.main_div1 {
+    width: 50%;
+    position: absolute;
+    left: 300px;
+    top: 310px;
+}
+
+.h3_1 {
+    font-size: 26px;
+    font-weight: 500;
+    font-style: italic;
+    color: red;
+    letter-spacing: 3px;
+    position: relative;
+    top: -30px;
+    right: 70px;
+    text-shadow: 2px 1px red;
+}
+
+.main_h1 {
+    color: black;
+    font-size: xxx-large;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    /* border: 2px solid; */
+    width: 100%;
+    
+
+}
+.main_h2 {
+    color: red;
+    font-weight: 700;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    font-family: "Sofadi One", system-ui;
+  font-weight: bolder;
+  /* font-style: normal; */
+}
+
+.text2 {
+    color: red;
+}
+
+.h3_2 {
+    font-weight: 700;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    font-style: italic;
+}
+
+.btn_1 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to right, rgb(180, 26, 26), rgb(3, 3, 3) 60%);
+    box-shadow: 2px 2px 3px rgb(45, 43, 41);
+    position: absolute;
+    top: 290px;
+    left: 160px;
+}
+
+.btn_1:hover {
+    color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    background: black;
+}
+
+
+.dot {
+    position: relative;
+    top: -100px;
+    left: 900px;
+    font-size: 40px;
+    /* border: 2px solid; */
+    width: 30px;
+}
+
+.dot_h1:hover {
+    color: red;
+    font-size: 100px;
+}
+
+/* icon section */
+.search_container {
+    position: relative;
+     right: 250px;
+     
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 3px; 
+}
+.bi-search {
+     position: absolute;
+    left: 130px;
+    bottom: 1px;
+    width: 40px;
+    height: 40px;
+    color: red;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.Search_text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;   
+    line-height: 40px;
+    width: 0px;
+}
+/* image section */
+.image_div {
+    width: 50%;
+    height: 80vh;
+}
+
+.home_img {
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    top: 225px;
+    left: 700px;
+}
+
+/* services */
+.service_icons_section {
+    width: 100%;
+    height: 25vh;
+    padding: 30px;
+    padding-left: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    background-color: rgb(252, 250, 247);
+    /* justify-content: space-evenly; */
+}
+
+.service_icons {
+    width: 30%;
+}
+
+.service_icons5 {
+    width: 70%;
+}
+
+.service_h3 {
+    position: relative;
+    top: 10px;
+    color: black;
+    font-size: larger;
+    font-family: monospace;
+}
+
+/* image offer */
+.floating_h1_div {
+    background-color: gold;
+    color: white;
+    height: 50px;
+    padding: 10px;
+
+}
+.full_offer_img {
+    width: 100%;
+}
+
+.img_offer_h2 {
+    position: relative;
+    bottom: 400px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(33, 16, 34);
+}
+
+.img_offer_h1 {
+    position: relative;
+    bottom: 350px;
+    left: 570px;
+    font-size: 50px;
+    color: #dc0b0b;
+    /* border: 2px solid; */
+    width: 40%;
+}
+
+.img_offer_span {
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+    right: 50px;
+    color: rgb(54, 49, 22);
+    /* border: 2px solid; */
+
+}
+
+.img_offer_btn_div {
+    width: 15%;
+    height: 40px;
+    background-color: yellow;
+    padding: 5px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 250px;
+    left: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px white;
+    /* border: 2px solid; */
+
+}
+
+.img_offer_btn_div:hover {
+    color: white;
+    background-color: red;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+/* small div offer Section */
+.small_div_offer_section {
+    width: 103%;
+    height: 30vh;
+    background-color: white;
+    position: relative;
+    top: 90px;
+    right: 20px;
+    padding: 10px;
+    /* border: 2px solid; */
+
+}
+
+/*dot div*/
+.small_div_offer_dot {
+    display: flex;
+    padding: 5px;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    letter-spacing: 20px;
+    /* border: 2px solid; */
+    width: 20%;
+
+
+}
+
+.small_div_offer_dot_h1 {
+    font-size: 60px;
+    color: rgb(162, 144, 144);
+}
+
+.small_div_offer_dot_h1:hover {
+    font-size: 70px;
+    color: rgb(107, 97, 97);
+}
+
+/* small_offer div */
+.small_div_offer_section {
+    /* background-color: red; */
+    /* border: 2px solid; */
+    width: 102%;
+    position: relative;
+    left: -15px;
+    top: -135px;
+}
+
+.small_offer_maincontainer {
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-evenly;
+    position: relative;
+    /* bottom: 200px; */
+}
+
+.small_div_offer_div {
+    border: 2px solid brown;
+    width: 19%;
+    height: 15vh;
+    background: linear-gradient(rgb(240, 215, 70), rgb(221, 225, 143), rgb(226, 210, 117), rgb(243, 213, 41));
+    border-radius: 20px;
+
+}
+
+.small_div_offer_div_h1 {
+    color: brown;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.small_div_offer_div_span {
+    font-size: 35px;
+
+}
+
+.small_div_offer_div:hover {
+    transform: translateX(20px);
+}
+
+.small_div_offer_div_span:hover {
+    color: rgb(12, 11, 11);
+}
+
+/* long offer section */
+
+.long_section_offer {
+    width: 102.5%;
+    height: 13vh;
+    background-color: rgb(122, 37, 122);
+    display: flex;
+    position: relative;
+    top: -135px;
+    padding: 20px;
+    right: 18.5px;
+    /* border: 2px solid; */
+}
+
+.long_offer_h1_line {
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+}
+
+.long_offer_h1 {
+    color: white;
+    font-size: 90px;
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+
+.long_offer_div3 {
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    left: 100px;
+    line-height: 160%;
+
+}
+
+.long_offer_h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.long_offer_h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    position: relative;
+    top: 5px;
+}
+
+/************* wedding offer section ****************/
+.wedding_offer_mainsection {
+    width: 80%;
+    height: 750px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    padding: 20px;
+}
+
+/* wedding offer first section */
+
+.wedding_offer_section1 {
+    width: 100%;
+    height: 100px;
+    /* background-color: white; */
+    display: flex;
+    padding: 10px;
+}
+
+/*first-section div1*/
+.wedding_offer_div1 {
+    width: 30%;
+    height: 80px;
+    /* border: 2px solid; */
+}
+
+.wedding_offer_div1_h1 {
+    color: rgb(131, 20, 149);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.wedding_offer_span1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+
+
+/* first section div2*/
+.wedding_offer_div2 {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid; */
+    width: 50%;
+    height: 80px;
+    padding: 5px;
+}
+
+/* time_div1 (first section div2) */
+.wedding_offer_time_div1 {
+    width: 25%;
+    height: 80px;
+    background-color: rgb(141, 9, 123);
+    padding: 5px;
+    padding-left: 30px;
+    color: yellow;
+    border-radius: 15px 0px 0px 10px;
+
+}
+
+.wedding_offer_div2_h1 {
+    font-size: 50px;
+    position: relative;
+    top: -8px;
+}
+
+.wedding_offer_div2_h2 {
+    position: relative;
+    top: -15px;
+
+}
+
+/* time_div2(first section div2)  */
+.wedding_offer_time_div2 {
+    width: 25%;
+    height: 80px;
+    background-color: rgb(141, 9, 123);
+    padding: 5px;
+    padding-left: 30px;
+    color: yellow;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+    right: 30px;
+}
+
+/* time_div3(first section div2)  */
+.wedding_offer_time_div3 {
+    width: 25%;
+    height: 80px;
+    background-color: rgb(141, 9, 123);
+    padding: 5px;
+    padding-left: 30px;
+    color: yellow;
+    border-radius: 0px 15px 15px 0px;
+    position: relative;
+    right: 60px;
+}
+
+/*first-section div3*/
+.wedding_offer_div3 {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid; */
+    width: 30%;
+    height: 80px;
+    padding: 10px;
+
+}
+
+.wedding_offer_h1 {
+    font-size: 20px;
+    letter-spacing: 10px;
+    color: rgb(182, 7, 179);
+
+}
+
+.wedding_offer_h1_span2 {
+    letter-spacing: 1px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* image section */
+.wedding_offer_image {
+    width: 100%;
+    height: 500px;
+}
+
+.wedding_offer_image_stardiv {
+    width: 110px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: 450px;
+    left: 190px;
+    border-radius: 50px 50px;
+    border: 3px dotted;
+    padding: 7px;
+    padding-left: 20px;
+    color: rgb(54, 4, 54);
+    letter-spacing: 2px;
+}
+
+/* .wedding_offer_image_stardiv:hover {
+    width: 110px;
+    height: 90px;
+    border: 2px dotted;
+    font-size: medium;
+} */
+.wedding_offer_h1-1 {
+    color: gold;
+    position: relative;
+    bottom: 440px;
+    left: 170px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px white;
+    /* border: 2px solid white; */
+    width: 20%;
+}
+
+.wedding_offer_h1-2 {
+    color: gold;
+    position: relative;
+    bottom: 450px;
+    left: 190px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px white;
+    /* border: 2px solid white; */
+    width: 15%;
+}
+
+.wedding_offer_image_h2 {
+    color: white;
+    position: relative;
+    top: -320px;
+    left: 35px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wedding_offer_image_span1 {
+    font-size: 30px;
+}
+
+.wedding_offer_image_h2:hover {
+    font-size: larger;
+}
+
+.wedding_offer_image_span1:hover {
+    color: red;
+}
+
+.wedding_offer_image_h1 {
+    color: yellow;
+    font-size: 40px;
+    position: relative;
+    bottom: 320px;
+    left: 35px;
+    letter-spacing: 5px;
+}
+
+.wedding_offer_image_span2 {
+    position: relative;
+    bottom: 2px;
+}
+
+.wedding_offer_image_span3 {
+    position: relative;
+    top: 5px;
+    font-size: 50px;
+}
+
+.wedding_offer_image_span2:hover {
+    color: white;
+    transition: 4s;
+}
+
+.wedding_offer_image_span3:hover {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    transition: 1s;
+}
+
+/* btn_section */
+.wedding_offer_btn_div {
+    width: 4%;
+    height: 40px;
+    background-color: gold;
+    font-size: 30px;
+    color: rgb(107, 10, 107);
+    border-radius: 30px;
+    padding-left: 13px;
+    padding-top: -15px;
+    font-weight: 900;
+    position: relative;
+    bottom: 270px;
+    left: 980px;
+}
+
+.wedding_offer_btn_div:hover {
+    color: red;
+    background-color: white;
+}
+
+/* wedding-offer dot-section */
+.wedding_div_offer_dot {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 20px;
+    /* border: 2px solid; */
+    width: 30%;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+
+}
+
+.wedding_div_offer_dot_h1 {
+    font-size: 60px;
+    color: rgb(162, 144, 144);
+}
+
+.wedding_div_offer_dot_h1:hover {
+    font-size: 70px;
+    color: rgb(107, 97, 97);
+}
+
+/* long offer-2 section */
+.long_section2_offer {
+    width: 102.5%;
+    height: 100px;
+    background-color: rgb(211, 33, 33);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+    right: 18px
+}
+
+.long_offer-2_div1 {
+    /* border: 2px solid; */
+    width: 30%;
+    padding: 20px;
+    letter-spacing: 4px;
+
+}
+
+.long_offer-2_h1 {
+    color: white;
+    -webkit-flow-into: 50px;
+}
+
+.long_offer_h2 {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    color: rgb(19, 13, 13);
+}
+
+.long_offer-2_div2 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: 5px;
+    right: 200px;
+    /* border: 2px solid; */
+    width: 3%;
+}
+
+.name_div-2 {
+    position: relative;
+    right: 350px;
+    top: 40px;
+}
+
+/*product Offer section */
+/* heading */
+.home_product_heading1 {
+    width: 102%;
+    height: 12vh;
+    /* background-color: yellow; */
+    position: relative;
+    right: 15px;
+    top: -60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(114, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home_offer_mainsection {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(187, 190, 176); */
+    position: relative;
+    top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    /* border: 2px solid; */
+}
+
+.home_offer_image-main_subdiv {
+    width: 23%;
+    height: 650px;
+    /* background-color: red; */
+}
+
+.home_offer_div {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    /* border: 2px solid; */
+    border-radius: 12px;
+}
+
+.home_offer_img {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.home_offer_img:hover {
+    transform: scale(1.1);
+    transform: 10s;
+  cursor: pointer;
+}
+
+.offer_img_detail_div {
+    width: 100%;
+    height: 150px;
+    /* background-color: blue; */
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.offer_disc_a {
+    color: rgb(74, 67, 67);
+    font-size: 18px;
+}
+
+.offer_rs_cut {
+    color: gray;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.offer_rs_fix {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+
+}
+
+/* offer section */
+.offer_mainsection {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(232, 212, 212);
+    padding: 5px;
+}
+
+.offer_h1 {
+    color: rgb(104, 94, 40);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 0.2cm;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.offer_section1 {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer_div {
+    width: 45%;
+    height: 250px;
+    background: linear-gradient(to left, rgb(227, 168, 178), rgb(234, 130, 147), rgb(228, 109, 129), rgb(244, 78, 106));
+    border-radius: 20px 30px 50px;
+    box-shadow: 5px 5px 5px 1px rgb(65, 61, 57);
+    position: relative;
+    bottom: 30px;
+
+}
+
+.offer_div:hover {
+    transform: translateY(35px);
+}
+
+.offer_div1 {
+    position: relative;
+    right: 70px;
+}
+
+.offer_div2 {
+    position: relative;
+    left: 10px;
+}
+
+.offer_div3 {
+    position: relative;
+    left: 70px;
+}
+
+/* offer div--1 */
+
+.offer1_div1_h2 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+}
+
+.offer1_h1_rs {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    color: gold;
+    font-size: 55px;
+
+}
+
+.offer1_div1_h1 {
+    color: rgb(243, 207, 1);
+    font-size: 100px;
+    position: relative;
+    left: 120px;
+    top: -35px;
+
+}
+
+.offer1_div1_h2_off {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -40px;
+}
+
+.offer1_btn1_div {
+    width: 35%;
+    height: 30px;
+    background: linear-gradient(gold, rgb(237, 215, 94), rgb(230, 209, 85));
+    position: relative;
+    left: 220px;
+    bottom: 55px;
+    box-shadow: 2px 2px rgb(184, 158, 9);
+    padding: 2px;
+}
+
+.offer1_btn1_h3 {
+    color: rgb(143, 6, 143);
+    position: relative;
+    left: 5px;
+}
+
+.offer1_btn2_div {
+    width: 20%;
+    height: 25px;
+    background-color: rgb(123, 49, 123);
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.offer1_btn2_h3 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 1px;
+    left: 8px;
+
+}
+
+/* offer div--2 */
+.offer2_div1_h2 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.offer2_div1_h1 {
+    color: gold;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.offer2_btn1_div {
+    width: 10%;
+    height: 40px;
+    background-color: rgb(123, 49, 123);
+    border-radius: 50%;
+    position: relative;
+    left: 160px;
+    top: 90px;
+}
+
+.offer2_btn1_h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    top: -1px;
+    left: 10px;
+
+}
+
+/* offer div--3 */
+.offer3_div1_h2 {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.offer3_div1_h1 {
+    color: gold;
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.offer3_btn1_div {
+    width: 35%;
+    height: 30px;
+    background: linear-gradient(gold, rgb(237, 215, 94), rgb(230, 209, 85));
+    position: relative;
+    left: 230px;
+    top: 80px;
+    box-shadow: 2px 2px rgb(184, 158, 9);
+    padding: 2px;
+}
+
+.offer3_btn1_h3 {
+    color: rgb(143, 6, 143);
+    position: relative;
+    left: 5px;
+}
+
+.offer3_btn2_div {
+    width: 20%;
+    height: 25px;
+    background-color: rgb(123, 49, 123);
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+}
+
+.offer3_btn2_h3 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 1px;
+    left: 8px;
+
+}
+
+.off_btn:hover {
+    background-color: white;
+}
+
+.off_h3:hover {
+    color: black;
+}
+
+.off_gold:hover {
+    color: red;
+}
+
+/* Letest Product section */
+.home_product_heading2 {
+    width: 102%;
+    height: 12vh;
+    /* background-color: yellow; */
+    position: relative;
+    right: 15px;
+    top: -30px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+    font-family: cursive;
+}
+
+.home_product_heading2:hover {
+    color: gold;
+
+}
+
+.home_newprdcts_mainsection {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(187, 190, 176); */
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    /* border: 2px solid; */
+}
+
+.home_newprdcts_image-main_subdiv {
+    width: 23%;
+    height: 650px;
+    /* background-color: red; */
+}
+
+.home_newprdcts_div {
+    width: 100%;
+    height: 50vh;
+    /* background-color: white; */
+    /* border: 2px solid; */
+    border-radius: 12px;
+
+}
+
+.home_newprdcts_div img {
+    position: absolute;
+    width: 23%;
+    height: 460px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.home_newprdcts_div #img2:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+.home_newprd_desc_div {
+    position: relative;
+    top: 50px;
+    /* border: 2px solid; */
+    width: 100%;
+    height: 150px;
+    /* background-color: blue; */
+    padding: 20px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+
+.shop_newprds_a {
+    color: rgb(74, 67, 67);
+    font-size: 18px;   
+}
+
+.shop_newprds_h4_rs {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+/* mood section */
+.mood_image {
+    position: relative;
+    top: 170px;
+    width: 100%;
+}
+
+.mood_btn {
+    width: 20%;
+    height: 55px;
+    background-color: rgb(166, 161, 161);
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 500px;
+    border-radius: 5px;
+}
+.mood_btn:hover {
+    border-radius: 20px;
+    border: 2px solid rgb(85, 64, 64);
+    transition: 0.5s;
+}
+.mood_h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid; */
+}
+
+.mood_p {
+    position: relative;
+    left: 150px;
+    top: 80px;
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-style: italic;
+    /* border: 2px solid;     */
+    width: 1200px;
+}
+
+/* images  */
+.mood_sub_image {
+    width: 20%;
+    position: relative;
+    top: 220px;
+}
+
+.mood_images_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mood_sub_image:hover {
+    transform: scale(1.1) ;
+    cursor: pointer;
+}
+/********************* footer *****************/
+.footer_maincontainer {
+    width: 95%;
+    height: 45vh;
+    padding: 50px;
+    background-color: rgb(184, 176, 176);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 40px;
+    top: 2250px;
+} 
+
+.footer_h2 {
+    position: relative;
+    top: 13px;
+
+}
+
+.footer_P {
+    position: relative;
+    top: 35px;
+    /* right: 30px ; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* letter-spacing: 1px;
+    word-spacing: 1px; */
+    line-height: 160%;
+}
+
+.footer {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.h1_footer1 {
+    position: relative;
+    top: 30px;
+
+}
+
+.footer_li {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 170%;
+
+}
+
+.h1_footer2 {
+    position: relative;
+    top: 30px;
+
+}
+
+.footer_h5 {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 140%;
+}
+
+.h1_footer3 {
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+}
+
+.footer_input {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    box-shadow: 2px 2px 3px rgb(45, 43, 41);
+    font-size: 18px;
+}
+
+.btn_2 {
+    width: 30%;
+    height: 30px;
+    background-color: rgb(56, 52, 52);
+    position: relative;
+    top: 80px;
+    left: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(87, 82, 78);
+
+}
+
+.footer_btn_txt {
+    font-size: 17px;
+    position: relative;
+    left: 15px;
+    color: white;
+}
+
+.footer_btn_txt:hover {
+    color: red;
+
+}
+
+.btn_2:hover {
+    background-color: rgb(218, 210, 210);
+}

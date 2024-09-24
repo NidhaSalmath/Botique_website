@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    /* height: 420vh; */
+    padding: 20px;
+    padding-top: 40px;
+}
+
+/* designing section */
+.designing_mainsection {
+    width: 100%;
+    height: 300px;
+    border: 2px solid;
+}
+
+.designing_h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.designing_div {
+    width: 13%;
+    height: 50px;
+    background: linear-gradient(rgb(72, 69, 69), gray, gray, rgb(60, 54, 54));
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 150px;
+    left: 550px;
+}
+
+.designing_a {
+    color: white;
+    font-size: 20px;
+}
+
+.designing_div:hover {
+    background: black;
+}
+
+.designing_a:hover {
+    color: white;
+    font-size: 23px;
+}
+
+
+/* shop nav-& image section */
+.shop_maincontainer {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 29vh;
+    background-color: rgb(246, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    padding-top: 12.5px;
+}
+
+/* Nav image */
+.shop_lidiv {
+    /* border: 2px solid; */
+    width: 13%;
+    height: 200px;
+    /* background-color: rgb(246, 246, 35); */
+    padding: 10px;
+}
+
+.nav_img {
+    width: 100%;
+}
+
+.shop_h3 {
+    text-align: center;
+    /* font-size: medium; */
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shop_lidiv:hover {
+    border-radius: 30% 30% 50%;
+    background-color: rgb(224, 117, 24);
+}
+
+/* sub-item section */
+/* .subitem_mainsection {
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.shop_subitem_div {
+    width: 15%;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+.shop_subitem_div:hover {
+    border: 5px solid rgb(87, 233, 76);
+} */
+/* sub-item image(lahanga) */
+.lehanga_subdiv_img {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 400px;
+    /* height: 600px; */
+}
+
+.lahanga_h1 {
+    color: white;
+    position: relative;
+    bottom: 250px;
+    font-size: 40px;
+    left: 600px;
+    letter-spacing: 3px;
+    width: 250px;
+    padding: 10px;
+}
+
+.lahanga_h1:hover {
+    font-size: 40px;
+    border: 2px solid;
+}
+
+/* Resent product section (New product)*/
+/* heading */
+.shop_newprdct_section {
+    width: 102%;
+    height: 12vh;
+    /* background-color: yellow; */
+    position: relative;
+    right: 15px;
+    top: -20px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop_recent_mainsection {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(187, 190, 176); */
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    /* border: 2px solid; */
+}
+
+.shop_newprdct_subdiv {
+    width: 23%;
+    height: 650px;
+    /* background-color: red; */
+}
+
+.shop_recent_div {
+    width: 100%;
+    height: 60vh;
+    /* background-color: white; */
+    /* border: 2px solid; */
+    border-radius: 12px;
+
+}
+
+.shop_recent_div img {
+    position: absolute;
+    width: 23%;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.shop_recent_div #images_lahanga:hover {
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.shop_lehanga_drsc-subdiv {
+    width: 100%;
+    height: 145px;
+    /* background-color: blue; */
+    padding: 20px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+
+}
+
+.shop_lehanga_a {
+    color: rgb(74, 67, 67);
+    font-size: 18px;
+    color: gray;
+}
+
+.shop_lehanga_h4 {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+
+
+/* All product  */
+/* heading */
+.shop_product_heading3 {
+    width: 102%;
+    height: 12vh;
+    /* background-color: yellow; */
+    position: relative;
+    right: 15px;
+    top: -80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop_product_mainsection {
+    width: 100%;
+    height: 90vh;
+    /* background-color: rgb(187, 190, 176); */
+    position: relative;
+    top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    /* border: 2px solid; */
+}
+
+.shop_allprdct_subdiv {
+    width: 23%;
+    height: 650px;
+}
+
+.shop_product_div {
+    width: 100%;
+    height: 60vh;
+    /* border: 2px solid; */
+    border-radius: 12px;
+}
+
+.shop_product_div img {
+    position: absolute;
+    width: 22.8%;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.shop_product_div #lahanga_allprdct_image:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.shop_allprdct_dsc_subdiv {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+
+}
+
+.shop_allprdct_a {
+    color: rgb(74, 67, 67);
+    font-size: 18px;
+}
+
+.shop_allprdct_h4 {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+
+/* Offer section */
+/* heading */
+.shop_product_heading2 {
+    width: 102%;
+    height: 12vh;
+    position: relative;
+    right: 15px;
+    top: -80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop_offer_mainsection {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.shop_offer_subdiv {
+    width: 23%;
+    height: 650px;
+}
+
+.shop_offer_div {
+    width: 100%;
+    height: 60vh;
+    border-radius: 12px;
+
+}
+
+.shop_offer_div img {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.shop_offer_desc_subdiv {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    padding-left: 50px;
+    letter-spacing: 1px;
+}
+
+.shop_offer_dsc_a {
+    color: rgb(74, 67, 67);
+    font-size: 18px;
+}
+
+.shop_offer_rs_no {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+    text-decoration: line-through;
+
+}
+
+.shop_offer_rs_yes {
+    color: rgb(76, 67, 67);
+    font-size: 20px;
+}
+.shop_offer_lehanga_img:hover {
+    transform: scale(1.1);
+    transform: 10s;
+  cursor: pointer;
+}
+
+/* footer */
+.shop_footer {
+    top: -2000px;
+}
